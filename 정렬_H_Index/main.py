@@ -29,5 +29,4 @@ def solution(citations):
         if idx>=citation:
             return idx
     return len(citations)
-
-########################################
+##############################################################

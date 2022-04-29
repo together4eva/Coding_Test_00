@@ -53,5 +53,4 @@ def solution(clothes):
         answer *= (clothesTypeMap[clothesType] + 1)
 
     return answer - 1
-
-##############
+################################
