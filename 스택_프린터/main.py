@@ -29,25 +29,28 @@
 # 6개의 문서(A, B, C, D, E, F)가 인쇄 대기목록에 있고 중요도가 1 1 9 1 1 1 이므로 C D E F A B 순으로 인쇄합니다.
 
 
- solution(priorities, location):
-    answer = 0
+ # solution(priorities, location):
+ #    answer = 0
+ #
+ #    myDeque = deque([(v, i) for i, v in enumerate(priorities)])
+ #
+ #    idx = 0;
+ #    while myDeque:
+ #
+ #        idx += 1
+ #        firstData = myDeque.popleft()
+ #        if myDeque and max(myDeque)[0] > firstData[0]:
+ #
+ #            myDeque.append(firstData)
+ #
+ #        else:
+ #
+ #            answer += 1
+ #
+ #            if location == firstData[1]:
+ #                break
+ #
+ #    return answer
 
-    myDeque = deque([(v, i) for i, v in enumerate(priorities)])
 
-    idx = 0;
-    while myDeque:
-
-        idx += 1
-        firstData = myDeque.popleft()
-        if myDeque and max(myDeque)[0] > firstData[0]:
-
-            myDeque.append(firstData)
-
-        else:
-
-            answer += 1
-
-            if location == firstData[1]:
-                break
-
-    return answer
+ ###########################

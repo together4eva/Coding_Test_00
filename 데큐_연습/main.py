@@ -12,3 +12,7 @@ print("현재 데큐: ",myDeque)
 
 myDeque.append(firstData)
 print("현재 데큐", myDeque)
+
+
+
+#####################
